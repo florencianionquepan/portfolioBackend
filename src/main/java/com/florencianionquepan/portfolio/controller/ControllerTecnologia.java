@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins="https://portfolio-b618d.web.app/portfolio")
+@CrossOrigin(origins="https://portfolio-b618d.web.app")
 public class ControllerTecnologia {
     @Autowired
     private ITecnologiaService tecServ;
